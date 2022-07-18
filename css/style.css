@@ -1,4 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+*{
+    box-sizing: content-box;
+}
+.display, body{
+    display: flex;
+}
+
+.display{
+    flex-direction: row-reverse !important;
+    flex: 1;
+    height: 2em;
+    margin: 2px;
+}
+
+.display>a{
+    padding: 5px;
+}
+
+.index{
+    padding: 12px;
+}
+
+.empty{
+    flex: 3;
+}
+
 /* 
 Legacy code
 *{
